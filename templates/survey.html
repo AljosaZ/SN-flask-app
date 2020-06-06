@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/static/css/surveystyle.css" rel="stylesheet">
+    <title>Survey form</title>
+</head>
+<body>
+
+    <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+</head>
+<body>
+  <div id="container">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform<p>
+      <div id="form-container">
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input class="input-fields" id="name" type="text" name="name" required placeholder=" Enter your name">
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input class="input-fields" id="email" type="email" name="email" required placeholder=" Enter your email">
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Number</label>
+            <input class="input-fields" id="number" type="number" name="number" min="2" max="10" required placeholder=" Enter your number">
+          </div>
+          <div class="form-group">
+            <p>
+              How much do you enjoy the FCC Projects?
+            </p>
+            <select id="dropdown">
+              <option>Not so much</option>
+              <option>They are ok</option>
+              <option>Very much</option>
+              <option>I LoVe ThEm</option>
+            </select>
+          </div>
+          <div class="form-group" id="radio">
+            <p>
+              Did you watch this?
+            </p>
+            <label>
+              <input type="radio" value="Francis" name="Malcolm in the Middle" checked>Yes
+            </label>
+            <label>
+              <input type="radio" value="Reese" name="Malcolm in the Middle">No
+            </label>
+            <label>
+              <input type="radio" value="Malcolm" name="Malcolm in the Middle">Maybe
+            </label>
+            <label>
+              <input type="radio" value="Dewey" name="Malcolm in the Middle">I don't know
+            </label>
+          </div>
+          <div class="form-group">
+            <p>
+              Which of the below describe you in this moment?
+            </p>
+            <label><input value="fine" type="checkbox">Fine</label>
+            <label><input value="angry" type="checkbox">Hungry</label>
+            <label><input value="angry" type="checkbox">Angry</label>
+            <label><input value="angry" type="checkbox">Hangry</label>
+            <label><input value="angry" type="checkbox">Thirsty</label>
+            <label><input value="angry" type="checkbox">Thangry</label>
+          </div>
+          <div class="form-group">
+            <label>Tell us what you would like to eat at this moment.</label>
+            <textarea rows="8">Pizza, Hamburger, Fries...</textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+  </div>
+</body>
+</html>
+
+</body>
+</html>

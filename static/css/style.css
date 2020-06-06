@@ -1,0 +1,12 @@
+h1 {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    color: red;
+    text-align: center;
+    font-size: 46px;
+}
+
+h2 {
+    color: blue;
+    margin-top: 50px;
+    text-align: center
+}

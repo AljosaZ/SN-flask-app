@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/static/css/portfoliostyle.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id ="portfolio-ul">
+        <h1>My frontend projects so far are:</h1>
+        <ul id="project-links">
+            <li><h2><a href="{{ url_for('boogle') }}">boogle</a></h2></li>
+            <li><h2><a href="{{ url_for('fakebook') }}">fakebook</a></h2></li>
+            <li><h2><a href="{{ url_for('hairsalon') }}">hairsalon</a></h2></li>
+            <li><h2><a href="{{ url_for('survey') }}">survey</a></h2></li>
+        </ul>
+    </div>
+</body>
+</html>

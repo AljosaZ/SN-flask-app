@@ -1,0 +1,60 @@
+body {
+    background-color: #25272F;
+    float: middle;
+}
+
+h1:hover {
+    color: white;
+}
+
+.header {
+    color: #blue;
+}
+
+h1 {
+    width: 150px;
+    color: blue;
+}
+
+#in-the-middle {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#bigger-better {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#bigger-better:hover {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+ #name {
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 0.6cm;
+    width: 150px;
+    height: 32px;
+ }
+
+#name:hover {
+    border: 2px red double;
+}
+
+#the-button {
+    margin-top: 15px;
+}
+
+.category {
+    width: 150px;
+    font-family: Arial;
+    text-align: middle;
+}
+
+.category strong {
+    text-decoration: underline dotted;
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#Box, #Title-block, #Sub-title, #Sign-in-box,
+#User-icon-picture, #Sign-in-button, #Create-account-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Logo-image, #User-icon-picture, .Input-box, #Input-box-text,
+#Input-box-password-text, #Sign-in-box, #Sign-in-button, #Create-account, #Create-account-text  {
+    display: block;
+}
+
+#Box {
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+#Logo {
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#Logo-image {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#Title-block {
+    width: 450px;
+    margin-top: 40px;
+    text-align: center;
+    color: #505050;
+}
+
+#Title-text {
+    font-size: 36px;
+}
+
+#Sub-title {
+    width: 350px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #505050
+}
+
+#Sign-in-box{
+    width: 350px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+#User-icon-picture {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.Input-box {
+    margin: 0 auto;
+    width: 350px;
+}
+
+#Input-box-text {
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#Input-box-password-text {
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+#Sign-in-box {
+    margin: 0 auto;
+}
+
+#Sign-in-button {
+    border-radius: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #4682B4;
+    color: white;
+}
+
+#Create-account {
+    margin: 0 auto;
+    width: 350px;
+}
+
+#Create-account-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4169E1;
+}
